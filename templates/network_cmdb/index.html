@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NetAutoOps</title>
+</head>
+<body>
+{% for dev in devs %}
+    {{ dev.name }} {{ dev.hostname }}  {{ dev.username }} <br>
+{% endfor %}
+
+</body>
+</html>
